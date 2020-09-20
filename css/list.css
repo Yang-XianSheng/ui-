@@ -1,0 +1,117 @@
+        .sk {
+            position: absolute;
+            left: 190px;
+            top: 40px;
+            border-left: 1px solid #c52323;
+            padding-left: 15px;
+        }
+        
+        .sk-left {
+            float: left;
+        }
+        
+        .sk-left ul li {
+            float: left;
+        }
+        
+        .sk-left ul li a {
+            font-size: 16px;
+            color: black;
+            height: 46px;
+            line-height: 46px;
+            padding: 0 30px;
+        }
+        
+        .sk-right {
+            float: left;
+        }
+        
+        .sk-right ul li {
+            float: left;
+        }
+        
+        .sk-right ul li a {
+            /* font-size: 14px; */
+            /* color: black; */
+            height: 46px;
+            line-height: 46px;
+            padding: 0 20px;
+        }
+        
+        .sk-right ul li:last-child a::after {
+            content: '\e900';
+            padding-left: 5px;
+            font-family: 'icomoon';
+        }
+        
+        .list-conbum ul li {
+            float: left;
+            margin-right: 20px;
+            width: 280px;
+            height: 460px;
+            /* background-color: blanchedalmond; */
+        }
+        
+        .list-conbum ul li img {
+            width: 100%;
+        }
+        
+        .list-contents {
+            margin-left: 20px;
+        }
+        
+        .list-contents h6 {
+            height: 40px;
+            line-height: 24px;
+        }
+        
+        .list-contents .prace {
+            margin-top: 20px;
+        }
+        
+        .list-contents .prace p {
+            color: crimson;
+            font-size: 18px;
+            line-height: 36px;
+        }
+        
+        .list-contents .prace p span {
+            font-size: 12px;
+            text-decoration: line-through;
+            padding-left: 10px;
+            color: rgb(202, 202, 202);
+        }
+        
+        .list-contents .jindu {
+            height: 28px;
+            line-height: 24px;
+        }
+        
+        .list-contents .jindu p span {
+            position: relative;
+            line-height: 24px;
+            display: inline-block;
+            width: 140px;
+            height: 10px;
+            border: 1px solid #c52323;
+            margin: 0 10px;
+            border-radius: 7px;
+        }
+        
+        .list-contents .jindu p span b {
+            position: absolute;
+            /* line-height: 24px; */
+            display: inline;
+            width: 80%;
+            height: 8px;
+            background-color: #c52323;
+            border-radius: 4px;
+        }
+        
+        .list-conbum li button {
+            font-size: 16px;
+            color: #fff;
+            width: 100%;
+            height: 50px;
+            background-color: #c52323;
+        }
